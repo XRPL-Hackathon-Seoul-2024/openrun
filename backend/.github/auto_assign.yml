@@ -1,0 +1,10 @@
+addReviewers: true
+addAssignees: author
+
+reviewers:
+  - yjkellyjoo
+  - jryouda
+  - sonjh919
+  - DonHK-97
+
+numberOfReviewers: 0
