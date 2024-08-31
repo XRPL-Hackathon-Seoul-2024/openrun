@@ -54,40 +54,21 @@ MySQL
 
 xrpl4j
 
-# 프로젝트 구조
-
-```
-openrun
-├── frontend
-│   ├── public
-│   ├── src
-...
-├── backend
-│   ├── src
-...
-
-```
-
 # 실행 방법
 
 ## Frontend
-bash
-
+```bash
 cd frontend
-
 npm install
-
 npm run dev
-...
-
+```
 
 ## Backend
-
+```bash
 cd backend
-
+./gradlew build
 ./gradlew bootRun
-
-...
+```
 
 혹은 배포 URL에서 확인 가능
 
